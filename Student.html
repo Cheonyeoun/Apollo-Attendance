@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Student.css"> <!-- Ensure correct CSS file is linked -->
+    <title>Attendance System</title>
+</head>
+<body>
+    <header>
+        <img id="apollo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcrVIVOO6_X8Cs5-6LPQM3gbrxl_olmZbBOg&s" alt="Apollo Logo">
+        <h1>Attendance System</h1>
+    </header>
+
+    <main class="container">
+        <section class="form-section" id="checkin-section">
+            <h2>Check In</h2>
+            <form id="checkinForm" aria-labelledby="checkin-section">
+                <label for="checkinWord">Enter Check-In Word:</label>
+                <input type="text" id="checkinWord" name="checkinWord" required>
+                <button type="submit">Check In</button>
+            </form>
+        </section>
+
+        <section class="form-section" id="checkout-section">
+            <h2>Check Out</h2>
+            <form id="checkoutForm" aria-labelledby="checkout-section">
+                <label for="checkoutWord">Enter Check-Out Word:</label>
+                <input type="text" id="checkoutWord" name="checkoutWord" required>
+                <button type="submit">Check Out</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Attendance System. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
